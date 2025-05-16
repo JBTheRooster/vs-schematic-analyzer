@@ -1,0 +1,47 @@
+Vintage Story Schematic Block Counter (v1.0 – PowerShell Version)
+------------------------------------------------------------------
+
+Author: JBTheRooster / 601G Studios
+Created: 2025
+
+This PowerShell script was the original version of what would become the
+Vintage Story Schematic Analyzer (VSSA). It parses schematic `.json` files
+exported from Vintage Story (via WorldEdit) and counts how many of each
+block ID appears in the build.
+
+It also maps those numeric block IDs to block codes using the BlockCodes
+dictionary embedded in the file.
+
+------------------------------------------------------------------
+INSTRUCTIONS
+------------------------------------------------------------------
+
+1. Open the script in a text editor or the PowerShell IDE (Windows PowerShell ISE).
+
+2. Modify the top of the script where it defines the file path:
+
+   Example:
+   $jsonPath = "C:\Users\You\Documents\RoosterKeep.json"
+
+3. Run the script inside the PowerShell IDE so you can read the output.
+   If you right-click and "Run with PowerShell," the window will close immediately
+   after execution.
+
+   To run inside PowerShell terminal manually:
+   cd "C:\Path\To\Script"
+   .\count_blocks.ps1
+
+4. The script will output a sorted list of block ID counts and their corresponding codes.
+
+------------------------------------------------------------------
+NOTES
+------------------------------------------------------------------
+
+- Requires PowerShell 5.1+ on Windows
+- This version does not support en.json display names
+- Only works on `.json` schematic files exported from Vintage Story
+- Results are displayed in the console (not exported to a file)
+
+For newer versions with GUI, drag-and-drop, display names,
+and export options, see:
+https://github.com/JBTheRooster/vs-schematic-analyzer/releases

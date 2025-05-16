@@ -2,7 +2,7 @@
 
 **VSSA** is a free, offline desktop utility that helps you analyze `.json` schematic files exported from the game [Vintage Story](https://www.vintagestory.at/). It counts each block used and displays their in-game names using localization data, helping players rebuild their creative structures in survival mode.
 
-![VSSA screenshot](https://github.com/JBTheRooster/vs-schematic-analyzer/assets/example-screenshot.png) <!-- Optional image -->
+![VSSA screenshot](https://github.com/JBTheRooster/vs-schematic-analyzer/blob/main/assets/example-screenshot.png?raw=true) <!-- Optional image -->
 
 ---
 
